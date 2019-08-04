@@ -1,18 +1,20 @@
 {
-  "name": "@quetils/set",
+  "name": "@quetils/make",
   "version": "0.0.1",
-  "description": "Set plugin that make object from query string",
+  "description": "Make object to query string",
   "keywords": [
     "javascript",
-    "es6",
     "querystring",
+    "es6",
     "object",
-    "string"
+    "es2015",
+    "ecmascript",
+    "nodejs"
   ],
   "author": "kern.yoo <trustyoo86@gmail.com>",
   "homepage": "https://github.com/trustyoo86/qutils#readme",
-  "license": "MIT",
-  "main": "lib/set.js",
+  "license": "ISC",
+  "main": "lib/make.js",
   "directories": {
     "lib": "lib",
     "test": "__tests__"
@@ -35,9 +37,12 @@
   },
   "devDependencies": {
     "chai": "^4.2.0",
-    "mocha": "^6.2.0"
+    "mocha": "^6.2.0",
+    "should": "^13.2.3"
   },
   "dependencies": {
+    "@quetils/set": "../set",
+    "@quetils/split": "../split",
     "eslint": "^6.1.0"
   }
 }

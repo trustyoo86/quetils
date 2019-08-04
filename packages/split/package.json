@@ -8,7 +8,7 @@
     "es2015",
     "querystring"
   ],
-  "author": "kern.yoo <kern86@wemakeprice.com>",
+  "author": "kern.yoo <trustyoo86@gmail.com>",
   "homepage": "https://github.com/trustyoo86/qutils#readme",
   "license": "MIT",
   "main": "lib/split.js",

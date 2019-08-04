@@ -1,12 +1,12 @@
 'use strict';
 
+const make = require('../lib/make');
 const chai = require('chai');
-const split = require('../lib/split');
 const should = chai.should();
 
-describe('[@quetils/split]', () => {
+describe('[@quetils/make]', () => {
 	let url = '';
 	it('Should be return empty object if url query is empty string.', () => {
-		JSON.stringify(split(url)).should.be.equal('[]');
+		JSON.stringify(make(url)).should.be.equal('{}');
 	});
 });
