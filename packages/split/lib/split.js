@@ -5,13 +5,11 @@ const set = require('@quetils/set');
 module.exports = split;
 
 function split(url) {
-	const queries = {};
-	
+	let arr = [];
 	if (url) {
 		const queryStr = url.split('?')[1];
-		const splitFunc = set(queries);
-		url.split('&').forEach(splitFunc);
+		arr = url.split('&');
 	}
 
-	return queries;
+	return arr;
 }
