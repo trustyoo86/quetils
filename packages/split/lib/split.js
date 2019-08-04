@@ -1,20 +1,15 @@
 'use strict';
 
-module.exports = split;
+const set = require('@quetils/set');
 
-function setKeyValue(target) {
-	return function setKeyValue(str) {
-		const arr = str.split('=');
-		target[arr[0]] = arr[1];
-	}
-}
+module.exports = split;
 
 function split(url) {
 	const queries = {};
 	
 	if (url) {
 		const queryStr = url.split('?')[1];
-		const splitFunc = setKeyValue(queries);
+		const splitFunc = set(queries);
 		url.split('&').forEach(splitFunc);
 	}
 
