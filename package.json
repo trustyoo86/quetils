@@ -1,7 +1,16 @@
 {
-  "name": "root",
+  "name": "quetils",
+  "version": "0.0.2",
   "private": true,
+  "scripts": {
+    "log:patch": "changelog -p",
+    "log:minor": "changelog -m",
+    "log:major": "changelog -M",
+    "log:file": "changelog -f"
+  },
   "devDependencies": {
+    "generate-changelog": "^1.8.0",
+    "husky": "^3.0.2",
     "lerna": "^3.16.4"
   }
 }
