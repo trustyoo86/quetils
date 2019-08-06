@@ -1,6 +1,6 @@
 {
   "name": "@quetils/make",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Make object to query string",
   "keywords": [
     "javascript",
@@ -36,8 +36,8 @@
     "url": "https://github.com/trustyoo86/qutils/issues"
   },
   "dependencies": {
-    "@quetils/set": "^1.0.1",
-    "@quetils/split": "^1.0.1",
+    "@quetils/set": "^1.0.2",
+    "@quetils/split": "^1.0.2",
     "eslint": "^6.1.0"
   },
   "gitHead": "0d69a02f8c918435cd4ec137d4a032f38e05c46e"
