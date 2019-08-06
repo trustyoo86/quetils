@@ -1,3 +1,9 @@
+## 1.0.0 (2019-08-06)
+
+##### New Features
+
+* **master:**  Major version update (26c28385)
+
 #### 0.0.2 (2019-08-05)
 
 ##### New Features
