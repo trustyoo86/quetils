@@ -3,14 +3,23 @@
   "version": "0.0.2",
   "private": true,
   "scripts": {
+    "bootstrap": "lerna bootstrap",
     "log:patch": "changelog -p",
     "log:minor": "changelog -m",
     "log:major": "changelog -M",
     "log:file": "changelog -f"
   },
   "devDependencies": {
+    "chai": "^4.2.0",
     "generate-changelog": "^1.8.0",
     "husky": "^3.0.2",
-    "lerna": "^3.16.4"
+    "lerna": "^3.16.4",
+    "mocha": "^6.2.0",
+    "should": "^13.2.3"
+  },
+  "dependencies": {
+    "@quetils/make": "file:packages/make",
+    "@quetils/set": "file:packages/set",
+    "@quetils/split": "file:packages/split"
   }
 }

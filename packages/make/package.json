@@ -35,14 +35,9 @@
   "bugs": {
     "url": "https://github.com/trustyoo86/qutils/issues"
   },
-  "devDependencies": {
-    "chai": "^4.2.0",
-    "mocha": "^6.2.0",
-    "should": "^13.2.3"
-  },
   "dependencies": {
-    "@quetils/set": "../set",
-    "@quetils/split": "../split",
+    "@quetils/set": "file:../set",
+    "@quetils/split": "file:../split",
     "eslint": "^6.1.0"
   }
 }
