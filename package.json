@@ -1,8 +1,18 @@
 {
   "name": "quetils",
-  "version": "0.1.2",
+  "version": "0.2.2",
+  "description": "Query string utilities using javascript",
+  "keywords": [
+    "javascript",
+    "es6",
+    "es2015",
+    "querystring",
+    "object",
+    "node"
+  ],
   "scripts": {
     "bootstrap": "lerna bootstrap",
+    "test": "lerna test",
     "log:patch": "changelog -p",
     "log:minor": "changelog -m",
     "log:major": "changelog -M",
@@ -16,9 +26,6 @@
     "mocha": "^6.2.0",
     "should": "^13.2.3"
   },
-  "dependencies": {
-    "@quetils/make": "file:packages/make",
-    "@quetils/set": "file:packages/set",
-    "@quetils/split": "file:packages/split"
-  }
+  "dependencies": {},
+  "license": "MIT"
 }
