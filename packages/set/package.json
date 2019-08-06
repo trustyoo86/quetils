@@ -35,5 +35,6 @@
   },
   "dependencies": {
     "eslint": "^6.1.0"
-  }
+  },
+  "gitHead": "ad6857331334da930c1d29bee29be223ba4459fc"
 }
