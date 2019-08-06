@@ -1,7 +1,6 @@
 {
   "name": "quetils",
   "version": "0.0.2",
-  "private": true,
   "scripts": {
     "bootstrap": "lerna bootstrap",
     "log:patch": "changelog -p",
