@@ -36,9 +36,9 @@
     "url": "https://github.com/trustyoo86/qutils/issues"
   },
   "dependencies": {
-    "@quetils/set": "^1.0.2",
-    "@quetils/split": "^1.0.2",
+    "@quetils/set": "file:../set",
+    "@quetils/split": "file:../split",
     "eslint": "^6.1.0"
   },
-  "gitHead": "0d69a02f8c918435cd4ec137d4a032f38e05c46e"
+  "gitHead": "016b985dfc2adeb2cf1824fe13288c368f7ab7a2"
 }
