@@ -1,3 +1,9 @@
+## 1.0.0 (2019-08-07)
+
+##### New Features
+
+* **QU-6:**  Added index.js (5849a9cb)
+
 ## 1.0.0 (2019-08-06)
 
 ##### New Features
