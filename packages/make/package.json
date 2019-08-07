@@ -1,6 +1,6 @@
 {
   "name": "@quetils/make",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Make object to query string",
   "keywords": [
     "javascript",
