@@ -1,0 +1,39 @@
+{
+  "name": "@quetils/history",
+  "version": "0.0.1",
+  "description": "History state utility",
+  "keywords": [
+    "javascript",
+    "history",
+    "state",
+    "es6",
+    "typescript",
+    "ecmascript",
+    "node",
+    "frontend"
+  ],
+  "author": "kern.yoo <kern86@wemakeprice.com>",
+  "homepage": "https://github.com/trustyoo86/quetils#readme",
+  "license": "MIT",
+  "main": "lib/history.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trustyoo86/quetils.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/trustyoo86/quetils/issues"
+  }
+}
