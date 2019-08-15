@@ -1,10 +1,22 @@
-## 1.0.0 (2019-08-07)
+#### 0.2.3 (2019-08-15)
+
+##### New Features
+
+* **QU-7:**
+  *  Add make object function (729045e4)
+  *  History module added (aef5c9d1)
+  *  README update (c10b719a)
+* **QU-6:**
+  *  CHANGELOG Added (dd84af52)
+  *  Added index.js (5849a9cb)
+
+## 0.2.2 (2019-08-07)
 
 ##### New Features
 
 * **QU-6:**  Added index.js (5849a9cb)
 
-## 1.0.0 (2019-08-06)
+## 0.2.1 (2019-08-06)
 
 ##### New Features
 
